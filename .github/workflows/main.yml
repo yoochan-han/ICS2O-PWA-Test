@@ -7,6 +7,7 @@ name: Mr Coxall's Super Linter
 
 on: [push, pull_request]
 
+permissions: read-all
 jobs:
   run-linters:
     name: Mr Coxall's Super Linter
